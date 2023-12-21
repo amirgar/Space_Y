@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>791</width>
+    <height>470</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Space Y</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../unnamed.jpg</normaloff>../unnamed.jpg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>791</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="Start_Page">
+     <attribute name="title">
+      <string>Start Page</string>
+     </attribute>
+     <widget class="QCalendarWidget" name="Calendar">
+      <property name="geometry">
+       <rect>
+        <x>411</x>
+        <y>10</y>
+        <width>361</width>
+        <height>221</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Space__STARTPAGE">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>270</y>
+        <width>601</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../unnamed.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Space_y_new_era">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>30</y>
+        <width>351</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Candara</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(87, 118, 255);</string>
+      </property>
+      <property name="text">
+       <string>Space Y - это новая эра любительской астрономии.</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="what_new">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>80</y>
+        <width>351</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>                                      В Space Y вы можете:
+   💫Узнать местоположение звёзд 
+💫Узнать краткую информацию о планетах 
+ 💫Узнать местоположение звезды 
+ 💫Узнать местоположение спутника
+💫Узнать краткую информацию о космическом объекте 
+                                      Последнее обновление:
+ (4.04.22 ) v.2.4 Улучшение интерфейса приложения, оптимизация алгоритмов</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Encyclopedia">
+     <attribute name="title">
+      <string>Encyclopedia</string>
+     </attribute>
+     <widget class="QLabel" name="space_y_enc">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>10</y>
+        <width>591</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../unnamed.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="search_information">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>170</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>SEARCH INFORMATION!</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="enc_res">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>252</y>
+        <width>621</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="enc_input">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>170</y>
+        <width>371</width>
+        <height>61</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Sputnik_search">
+     <attribute name="title">
+      <string>Sputnik Search</string>
+     </attribute>
+     <widget class="QLabel" name="sputnik_space_y">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>10</y>
+        <width>591</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../unnamed.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Sputnik_Searc">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>160</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>SPUTNIK SEARCH!</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="sputnik_res">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>250</y>
+        <width>611</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="sputnik_input">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>160</y>
+        <width>381</width>
+        <height>61</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Planet_Search">
+     <property name="minimumSize">
+      <size>
+       <width>785</width>
+       <height>445</height>
+      </size>
+     </property>
+     <attribute name="title">
+      <string>Planet Search!</string>
+     </attribute>
+     <widget class="QLabel" name="planet_space_y">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>10</y>
+        <width>591</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../unnamed.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="plane_search">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>160</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>PLANET SEARCH!</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="planet_input">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>160</y>
+        <width>371</width>
+        <height>61</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="planet_res">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>240</y>
+        <width>591</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Star_search">
+     <attribute name="title">
+      <string>Star Search!</string>
+     </attribute>
+     <widget class="QLabel" name="star_space_y">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>10</y>
+        <width>591</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../unnamed.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="star_search">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>160</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>STAR SEARCH!</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="star_input">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>160</y>
+        <width>381</width>
+        <height>61</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="sta_res">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>240</y>
+        <width>601</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Instruction">
+     <attribute name="title">
+      <string>Instruction</string>
+     </attribute>
+     <widget class="QLabel" name="ins_space_y">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>10</y>
+        <width>591</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../unnamed.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="instr">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>160</y>
+        <width>661</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>                                                                                                      Инструкция
+                                                                                               Для чайников в Space Y
+ Start Page. Стартовая страница автоматически запускается при открытии приложения. Сверху появится меню.
+ Sputnik Search! Вы вводите название спутника, немного подождав, вам выведится вся информация.
+ Encyclopedia. Вводите название объекта, немного подождав, выводиться результат.
+ Planet Search!. Вводите название планеты, неного подождав будет выведен результат.
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="About_Us">
+     <attribute name="title">
+      <string>About us</string>
+     </attribute>
+     <widget class="QLabel" name="abt_space_y">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>10</y>
+        <width>571</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../unnamed.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="abt_1">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>150</y>
+        <width>641</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Разработчиком данного приложения является ученик 7 класса Лицея №78 г. Набережные Челны (Татарстан). Цель данного
+проекта - Создать приложение - помощник для астрономов - любителей, в котором пользователь сможет узнать краткую
+ информацию о космическом объекте. Проект является победителем многих конференций республиканского и 
+всероссийского уровня.
+В будущем планируется создать раздел &quot;Созвездия&quot;, в котором будет удобнее работать с данными о звёздах.</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="abt_2">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>240</y>
+        <width>551</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>ВСЕ ВАШИ ПОЖЕЛАНИЯ МОЖНО ОСТАВИТЬ ЗДЕСЬ: gareev05@internet.ru</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
